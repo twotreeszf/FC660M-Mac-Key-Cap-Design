@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<root>
+    <devicevendordef>
+        <vendorname>LEOPOLD</vendorname>
+        <vendorid>0x04b4</vendorid>
+    </devicevendordef>
+
+    <deviceproductdef>
+        <productname>LEOPOLD_FC660M</productname>
+        <productid>0x0101</productid>
+    </deviceproductdef>
+
+    <modifierdef>TwoTrees</modifierdef>
+
+    <item>
+        <name>For Leopold FC660m</name>
+        <identifier>private.deviceproductdef_for_leopold_fc660m</identifier>
+        <device_only>DeviceVendor::LEOPOLD, DeviceProduct::LEOPOLD_FC660M</device_only>
+        <autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::COMMAND_R</autogen>
+        <autogen>__KeyToKey__ KeyCode::CONTROL_R, KeyCode::OPTION_R</autogen>
+    </item>
+
+</root>
